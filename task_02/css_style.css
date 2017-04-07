@@ -1,0 +1,50 @@
+.menu {
+  height: 50px;
+  width: 100%;
+  margin:0px;
+  padding:0px;
+  background-color: gray;
+  overflow:auto;
+}
+#baidu-pic img{
+  float:left;
+  width: 80px;
+  margin-top:5px;
+  margin-left:20px;
+}
+li {
+  float:right;
+  margin:5px 20px;
+}
+li a {
+  text-decoration:none;
+  font-size:18px;
+  color:#eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
