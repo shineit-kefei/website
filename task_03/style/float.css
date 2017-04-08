@@ -1,0 +1,51 @@
+* {
+  margin: 0;padding:0;
+}
+main {
+  margin: 40px;
+  padding: 20px;
+  background: #eee;
+  border: 1px solid #999;
+}
+main:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+aside:nth-child(1) {
+  padding: 20px;
+  float:left;
+  width: 160px;
+  background: white;
+  border: 1px solid #999;
+}
+aside:nth-child(1) span {
+  float: right
+}
+aside:nth-child(2) {
+  padding: 20px;
+  float: right;
+  width: 80px;
+  background: white;
+  border: 1px solid #999;
+}
+img {
+  border: 1px solid #999;
+  width: 80px;
+  height:80px;
+}
+section {
+  padding: 20px;
+  border: 1px solid #999;
+  margin-left: 220px;
+  margin-right: 140px;
+  background: white;
+}
+dl {
+  padding: 10px;
+}
+p {
+  text-indent: 2em;
+}
