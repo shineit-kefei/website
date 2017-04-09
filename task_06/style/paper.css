@@ -1,0 +1,375 @@
+* {
+  margin:0px;padding:0px
+}
+body {
+  background: #44565C;
+}
+main {
+  height: 1386px;
+  width: 892px;
+  margin: 150px auto;
+  padding: 0 44px;
+  background:white;
+  position: relative;
+}
+/* 头部 */
+header {
+  height: 61px;
+  border-bottom: 2px solid #938e8c;
+  position: relative;
+}
+header div {
+  position: relative;
+  width: 110px;
+  height: 61px;
+  background: red;
+}
+header div p {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: SimHei;
+}
+header p#date {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  font-size: 12px;
+  color: #d45d5c;
+  font-family: SimHei;
+}
+/* 第一部分 */
+.first {
+  margin-top: 30px;
+}
+.first:after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+/* 图片处理 */
+#image {
+  float: left;
+  height: 301px;
+  width: 641px;
+  position: relative;
+}
+#image img {
+  height: 301px;
+  width: 641px;
+}
+#image div {
+  position: absolute;
+  height: 301px;
+  width: 191px;
+  z-index: 10; /* 设置块级层级关系 */
+  top: 0px;
+  opacity: 0.4; /* 设置图像透明度 */
+}
+.green {
+  left: 0px;
+  background: green;
+}
+.red {
+  right: 0px;
+  background: red;
+}
+#text {
+  float: right;
+  width: 203px;
+  height: 301px;
+  border-top: 2px solid #cc8091;
+  position: relative;
+}
+#text p {
+  font-family: Microsoft YaHei;
+}
+#text p.about {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000000;
+  font-family: Microsoft YaHei;
+}
+p#description {
+  font-size: 12px;
+  color: #676767；
+  font-style: italic;
+  font-family: KaiTi;
+}
+p#number {
+  font-size: 116px;
+  color: #75b86b;
+  font-style: italic;
+}
+#text div.mark-down {
+  position: absolute;
+  width: inherit;
+  height: 82px;
+}
+div.mark-down p#mark-1 {
+  position: absolute;
+  left: 3px;
+  bottom: 0px;
+  font-size: 55px;
+  color: #cc8091;
+}
+div.mark-down p#mark-2 {
+  position: absolute;
+  left: 80px;
+  bottom: 20px;
+  font-size: 21px;
+  color: #cc8091;
+}
+div.mark-down p#mark-3 {
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
+  font-size: 12px;
+  color: #cc8091;
+}
+.second {
+  margin-top: 30px;
+  width: 641px;
+}
+.second:after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+}
+.what, .when, .how {
+  float: left;
+  width: 198px;
+}
+p.title {
+  font-size: 16px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Microsoft YaHei;
+}
+p.descr {
+  font-size: 12px;
+}
+.what p.title {
+  color: #418c59;
+}
+.what p.descr {
+  font-family: SimSun;
+}
+.when {
+  margin: 0 20px;
+}
+.when p.title {
+  color: #d2994f;
+}
+.when p.descr {
+  font-family: Microsoft YaHei;
+  color: #231815;
+  opacity: 70%;
+}
+.how p.title {
+  color: #cc7680;
+}
+.how p.descr {
+  font-size: SimSun;
+}
+.how div.total {
+  margin-top: 10px;
+  opacity: 70%;
+}
+.how div.total p {
+  font-size: 12px;
+  font-style: italic;
+  font-family: Microsoft YaHei;
+}
+.how div.total span {
+  color: #cd4a48;
+}
+.third {
+  margin-top: 50px;
+}
+.third:after {
+  display: block;
+  content: '';
+  height: 0px;
+  clear: both;
+}
+.third-left {
+  float: left;
+  width: 415px;
+}
+#upperletter {
+  border-bottom: 2px solid #11456b;
+}
+p#english {
+  border-bottom: 16px;
+  font-size: 42px;
+  color: #11456b;
+  text-transform: uppercase;
+}
+p#english span {
+  font-family: SimHei;
+  font-size: 72px;
+  color: #f5e327;
+  font-style: italic;
+}
+p#chinese {
+  font-size: 33px;
+  font-family: SimHei;
+  color: #11456b;
+  padding-bottom: 10px;
+}
+#longletter {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #767777;
+  font-family: SimSun;
+  position: relative;
+}
+p#gra1:first-letter {
+  float: left;
+  font-size: 70px;
+  color: #65e327;
+  font-family: Microsoft YaHei;
+}
+p#gra2, p#gra3 {
+  text-indent: 2em;
+}
+#longletter img {
+  float: right;
+  margin: 20px 0px 20px 20px;
+  height: 250px;
+  width: 150px;
+}
+.third-right {
+  float: right;
+  width: 458px;
+}
+#image-top, img {
+  height: 275px;
+  width: 458px;
+  position: relative;
+}
+#coverletter {
+  position: absolute;
+  height: 61px;
+  width: 458px;
+  bottom: 0px;
+  background: black;
+  opacity: 0.3;
+  padding-left: 8px 0px;
+}
+#coverletter p {
+  font-size: 26px;
+  color: #ffffff;
+  font-family: Microsoft YaHei;
+  margin: 10px 35px;
+  border-left: 3px solid #72b16a;
+  padding-left: 10px;
+}
+#coverletter span {
+  font-size: 12px;
+  color: #72b16a;
+  font-style: italic;
+}
+#image-bottom {
+  background: #fbfbd0;
+  margin-top: 30px;
+  height: 318px;
+  width: 458px;
+  position: relative;
+}
+#image-bottom ul {
+  position: absolute;
+  list-style-position: inside;
+  top: 20px;
+  left: 20px;
+}
+#image-bottom ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-family: SimSun;
+  color: #5a5b5b;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  display: inline-block;
+}
+.span-first {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+}
+.span-second {
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+}
+#red-text {
+  background: #ff3333;
+  height: 160px;
+  width: 260px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+#zero {
+  float: left;
+  font-size: 110px;
+  font-family: Microsoft YaHei;
+  color: #ffffff;
+  margin-top: 15px;
+}
+#last-desc {
+  float: left;
+  width: 160px;
+  margin-top:28px;
+  margin-left: 10px;
+  border-left: 2px solid #ffffff;
+  padding-left: 10px;
+  color: #ffffff;
+  font-family: SimHei;
+}
+#one-five {
+  font-size: 21px;
+  font-style: italic;
+}
+#hello {
+  font-size: 12px;
+}
+#quote-text {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 160px;
+  width: 180px;
+  font-size: 14px;
+  color: #5a5b5b;
+  font-family: SimHei;
+}
+#quote-text p {
+  margin: 30px 10px;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  height: 55px;
+  width: 892px;
+  border-top: 1px solid #9e838c;
+}
+.footer p {
+  position: absolute;
+  top:2px;
+  right: 2px;
+  font-size: 12px;
+  font-family: SimHei;
+  color: #d45d5c;
+}
