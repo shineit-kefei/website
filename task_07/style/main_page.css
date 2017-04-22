@@ -1,0 +1,251 @@
+* {
+  margin: 0px; padding: 0px;
+}
+.container {
+    width: 100%;
+    min-width: 1280px;
+    font-family: 'Microsoft YaHei'; 
+
+}
+header {
+  height: 60px;
+  width: 100%;
+  font-size: 0px; /*消除inline-block元素间的小间隙*/
+}
+.logo {
+    height: 60px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+
+    position: relative;
+    left: 7%;
+
+    background: url(../images/icon-1.png) no-repeat left;
+    background-size: 16% 50%;
+}
+.logo h1 {
+    color: #4E3A4F;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    cursor: default;
+}
+header nav {
+  display: inline-block;
+  width: 30%;
+
+  height: 60px;
+  vertical-align: middle;
+
+  position: relative;
+  left: 40%;
+}
+header ul {
+  list-style-type: none;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header ul li {
+  display: inline-block;
+  width: 20%;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition:color 0.4s ease-in-out;
+  -moz-transition:color 0.4s ease-in-out;
+  transition:color 0.4s ease-in-out; /* 延缓划过块颜色延缓变化时间*/
+}
+header ul li:hover {
+  color: #E53C3C;
+}
+header ul .move {
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  border-top: 4px solid #E53C3C;
+
+  -webkit-transition:color 0.4s ease-in-out;
+  -moz-transition:color 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+header ul li:nth-child(1):hover~.move {
+  left: 0;
+}
+header ul li:nth-child(2):hover~.move {
+  left: 20%;
+}
+header ul li:nth-child(3):hover~.move {
+  left: 40%;
+}
+header ul li:nth-child(4):hover~.move {
+  left: 60%;
+}
+header ul li:nth-child(5):hover~.move {
+  left: 80%;
+}
+.login {
+    height: 60px;
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+
+    background: url(../images/icon-2.jpg) no-repeat left;
+    background-size: 15% 30%;
+}
+.login span {
+    color: #E53C3C;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    cursor: default;
+}
+#section1 {
+  height: 650px;
+  width: 100%;
+  background: url(../images/pic01.jpg);
+  background-size: 100% auto;
+  position: relative;
+}
+#section1 .mes {
+  position: absolute;
+  left: 120px;
+  top: 250px;
+}
+#section1 .mes p {
+  font-size: 22px;
+  color: #fff;
+  margin: 0px;
+}
+#section1 .mes p:first-child {
+  font-size: 60px;
+  font-family: Arial;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+#section1 .mes p:last-of-type {
+  margin-bottom: 60px;
+}
+#section1 .mes span {
+  padding: 20px 40px;
+  background: red;
+  font-size: 22px;
+  color: #fff;
+}
+#section2 {
+  height: 200px;
+  width: 100%;
+  font-size: 0px;
+}
+#section2 .content {
+  height: 200px;
+  width: 25%;
+  display: inline-block;
+}
+#section2 .content .img {
+  height: 130px;
+  line-height: 130px;
+  text-align: center;
+}
+#section2 .content .mes {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #534141;
+  box-sizing: border-box;
+  border-right: 2px solid #534141;
+  transition: all 0.4s ease-in-out;
+}
+#section2 .content:last-child .mes {
+  border: none;
+}
+#section2 .content .mes p:hover {
+  color: #E53C3C;
+}
+#section3 {
+  height: 350px;
+  width: 100%;
+  background: #EDEAEA;
+  text-align: center;
+}
+#section3 .img {
+  position: relative;
+  top: 80px;
+}
+#section3 .mes {
+  position: relative;
+  top: 140px;
+  font-size:  50px;
+  color: #534141;
+}
+#section4 {
+  height: 300px;
+  width: 100%;
+  padding-top: 80px;
+  background: url(../images/pic02.jpg);
+  background-size: cover;
+  text-align: center;
+}
+#section4 .mes p {
+  color: #fff;
+  margin: 0;
+}
+#section4 .mes p:first-child {
+  font-size: 22px;
+}
+#section4 .mes span {
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  margin-top: 10px;
+  color: #fff;
+  border-top: 3px solid #fff;
+  transition: width 0.4s ease-in-out;
+}
+#section4 .mes span:hover {
+  width: 300px;
+}
+#section4 .form {
+  margin-top: 80px;
+  text-align: center;
+}
+#section4 .form form select{
+  height: 35px;
+  width: 235px;
+  appearance: none;
+  -webkit-appearance: none; /*取消下拉箭头*/
+  background: #fff url(../images/icon-8.png) no-repeat scroll right 10px center;
+  border: 1px solid #eee;
+  padding-right: 20px;
+  padding-left: 15px;
+  color: #aba6a5;
+  margin-right: 30px;
+}
+#section4 .form input {
+  background: #bf4f49;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 25px;
+  padding: 5px 0px 5px 25px;
+  cursor: pointer;
+  border: none;
+}
+#section4 .form input:hover {
+  background: #E31212;
+}
+
+
+
